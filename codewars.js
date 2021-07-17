@@ -1,19 +1,33 @@
-String.prototype.toJadenCase = function () {
-	//...
+haystack(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]);
 
-	var array = this.split(" ");
-	// console.log("fix this string", array);
-	for (let i = 0; i < array.length; i++) {
-		console.log(array[i].charAt(0).toUpperCase() + array[i].slice(1));
-		array[i] = array[i].charAt(0).toUpperCase() + array[i].slice(1);
-	}
-	console.log("array after for loop", array.join(" "));
-	return array.join(" ");
-};
+function findNeedle(haystack) {
+	// your code here
+	const needlePlace = haystack.indexOf("needle");
+	return "found the needle at position " + needlePlace;
+}
 
-var string = "How can mirrors be real if our eyes aren't real";
+//We need a function that can transform a number into a string.
+// function numberToString(num) {
+// 	// Return a string of the number here!
+// 	return String(num);
+// }
+// console.log(num);
+// String.prototype.toJadenCase = function () {
+// 	//...
 
-string.toJadenCase();
+// 	var array = this.split(" ");
+// 	// console.log("fix this string", array);
+// 	for (let i = 0; i < array.length; i++) {
+// 		console.log(array[i].charAt(0).toUpperCase() + array[i].slice(1));
+// 		array[i] = array[i].charAt(0).toUpperCase() + array[i].slice(1);
+// 	}
+// 	console.log("array after for loop", array.join(" "));
+// 	return array.join(" ");
+// };
+
+// var string = "How can mirrors be real if our eyes aren't real";
+
+// string.toJadenCase();
 
 // function basicOp(operation, value1, value2) {
 // 	// var answer;
@@ -27,7 +41,7 @@ string.toJadenCase();
 // 	// } else {
 // 	// 	answer = value1 / value2;
 // 	// }
-//     operation ? '+' value1 + value2 :
+// 	// operation ? '+' value1 + value2;
 
 // 	// return answer;
 // 	return eval(value1 + operation + value2);
