@@ -1,10 +1,14 @@
-haystack(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]);
+let isIsogram = (str) => (str = str.toLowerCase());
+str.split("").every((character, i) => str.indexOf(character) == i);
+console.log(isIsogram("Dermatoglyphics"));
 
-function findNeedle(haystack) {
-	// your code here
-	const needlePlace = haystack.indexOf("needle");
-	return "found the needle at position " + needlePlace;
-}
+// haystack(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]);
+
+// function findNeedle(haystack) {
+// 	// your code here
+// 	const needlePlace = haystack.indexOf("needle");
+// 	return "found the needle at position " + needlePlace;
+// }
 
 //We need a function that can transform a number into a string.
 // function numberToString(num) {
