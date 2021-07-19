@@ -1,6 +1,27 @@
-let isIsogram = (str) => (str = str.toLowerCase());
-str.split("").every((character, i) => str.indexOf(character) == i);
-console.log(isIsogram("Dermatoglyphics"));
+// let isIsogram = (str) => (str = str.toLowerCase());
+// str.split("").every((character, i) => str.indexOf(character) == i);
+// console.log(isIsogram("Dermatoglyphics"));
+
+// if (bool === true) {
+//     return "yes"
+
+// } else {
+//     return "no"
+// }
+
+// function oddOrEven(array) {
+// 	return array.reduce(function (sum, item) {
+// 		return sum + item;
+// 	}, 0) %
+// 		2 ==
+// 		0
+// 		? "even"
+// 		: "odd";
+// }
+
+// console.log(oddOrEven([1, 2]));
+// console.log(oddOrEven([1, 3]));
+// console.log(oddOrEven([]));
 
 // haystack(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]);
 
