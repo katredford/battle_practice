@@ -1,3 +1,31 @@
+let testData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+
+function countPositivesSumNegatives(input) {
+    let testData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+    for (let i = 0; i < testData.length; i++) {
+        const num = testData[i];
+
+        if (num > 0) {
+            
+        }
+        
+    }
+    return ?;
+}
+
+// if (pin === 4 || pin === 6) {
+//     return true;
+// } else {
+//     return false
+// }
+
+// const str = "abcde";
+// const ending = "cde";
+
+// function solution(str, ending) {
+// 	return ending === str.substring(str.length - ending.length);
+// }
+
 // let isIsogram = (str) => (str = str.toLowerCase());
 // str.split("").every((character, i) => str.indexOf(character) == i);
 // console.log(isIsogram("Dermatoglyphics"));
